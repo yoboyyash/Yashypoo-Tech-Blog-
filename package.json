@@ -1,0 +1,16 @@
+{
+  "name": "yashypoo-tech-blog-",
+  "version": "1.0.0",
+  "description": "Homework 14",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yoboyyash"
+  },
+  "author": "Yashraj Baviskar",
+  "license": "MIT "
+}

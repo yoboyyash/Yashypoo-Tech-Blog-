@@ -57,7 +57,7 @@ To run the application on Heroku, open the deployed application URL and follow t
 
 
 
-![Alt Text](./assets/Screenshot%202024-03-27%20171213.png)
+![Alt Text](./public/images/Screenshot2.png)
 
 
   

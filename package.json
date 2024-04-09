@@ -4,13 +4,35 @@
   "description": "Homework 14",
   "main": "server.js",
   "scripts": {
-    "test": "start",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js",
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
   },
   "repository": {
     "type": "git",
     "url": "yoboyyash"
   },
   "author": "Yashraj Baviskar",
-  "license": "MIT "
+  "license": "MIT ",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "bcryptjs": "^2.4.3",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
+    "mysql2": "^2.3.3",
+    "nodemon": "^3.1.0",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.3"
+  }
 }

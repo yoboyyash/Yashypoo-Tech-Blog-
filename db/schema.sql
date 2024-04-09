@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS yashypoo_db;
+
+CREATE DATABASE yashypoo_db;

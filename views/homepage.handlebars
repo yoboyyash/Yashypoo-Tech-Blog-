@@ -1,19 +1,21 @@
-<main class="container mt-5">
-  <h1 class="mb-4 text-blue-600 text-2xl">Tech Space Posts</h1>
-  <div class="row">
+<main class="mt-5">
+  <h1 class="mb-4 text-blue-400 text-4xl text-center">Tech Space Posts</h1>
+  <div class="text-center ">
     {{#each posts}}
-      <div class="col-md-4">
+      
         <div class="card mb-3">
-          <div class="card-header bg-warning">
+          <div class="card-header">
             <h2 class="card-title">
-              <a href="/post/{{id}}" class="text-dark">{{title}}</a>
+              <a href="/post/{{id}}">{{title}}</a>
             </h2>
           </div>
-          <div class="card-body text-dark">
-            <p class="text-purple-400">Created by: {{user.username}} Date: {{format_date createdAt}}</p>
+          <div class="card-body text-yellow-400">
+            Created by:
+            <p class="text-green-300"> {{user.username}} </p>
+            Date: <div class="text-black">{{format_date createdAt}}</div>
           </div>
         </div>
-      </div>
+      
     {{/each}}
   </div>
 </main>

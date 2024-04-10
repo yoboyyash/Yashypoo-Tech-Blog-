@@ -29,7 +29,8 @@
     "nodemon": "^3.1.0",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
-    "sequelize": "^6.29.3",
+    "sequelize": "^6.37.2",
+    "sequelize-cli": "^6.6.2",
     "serve": "^14.2.1",
     "uuid": "^7.0.0"
   },

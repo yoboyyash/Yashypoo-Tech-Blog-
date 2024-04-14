@@ -1,13 +1,12 @@
-{{!-- views/post.handlebars file --}}
-<main class="container mt-5">
+<main class="my-5 text-center bg-blue-500 border-4">
   <article>
     <h1>{{title}}</h1>
     <p>Created by: {{user.username}} | Date: {{format_date createdAt}}</p>
     <p>{{content}}</p>
   </article>
   {{#if logged_in}}
-    <form class="new-yashy-comment-form" class="mb-3">
-      <div class="mb-3">
+    <form class="new-yashy-comment-form " class="my-4">
+      <div class="my-4">
         <label for="comment" class="form-label">Add Comment:</label>
         <textarea
           class="form-control"
@@ -16,12 +15,12 @@
           placeholder="Add a comment..."
         ></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary text-xl border-2 rounded-lg hover:scale-110 hover:bg-green-600 bg-opacity-40 hover:opacity-100">Submit</button>
     </form>
   {{/if}}
   <h2>Comment History:</h2>
   {{#each comments}}
-    <div class="comment mb-3">
+    <div class="comment my-4">
       <p>{{comment_text}}</p>
       <p>By {{user.username}} on {{format_date createdAt}}</p>
     </div>
